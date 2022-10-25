@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+}
+
+#container {
+    width: 200px;
+}
+
+#submit {
+    width: 80px;
+    height: 30px;
+    /*border-radius: 15px;*/
+    background-color: rgb(223, 4, 157);
+    margin-top: 10px;
+    line-height: 30px;
+    user-select: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+#submit:hover {
+    background-color: aquamarine;
+}
+
+#submit:hover p{
+    color: rgb(34, 34, 34);
+}
